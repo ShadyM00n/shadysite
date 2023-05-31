@@ -25,7 +25,10 @@ html {
   top: 20%;
   transform: translateX(-50%);
 }
-
+.Shady a {
+    text-decoration: none;
+  color: #fff;
+}
 .wave {
   overflow-y: hidden;
   user-select: none;
