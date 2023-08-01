@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+    <title>ShadyMoon | Home page</title>
+</head>
+<body class="dark">
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="/img/pfp.png" draggable="false" alt="">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">ShadyMoon</span>
+                    <span class="profession">Full stack developer</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+
+                <ul class="menu-links">
+                    <li class="nav-link active">
+                        <a href="/">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="/about-me/">
+                            <i class='bx bx-user icon' ></i>
+                            <span class="text nav-text">About me</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="/stats/">
+                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                            <span class="text nav-text">Statistics</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="/Projects/">
+                            <i class='bx bx-folder icon'></i>
+                            <span class="text nav-text">Projects</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-heart icon' ></i>
+                            <span class="text nav-text">Favorites</span>
+                        </a>
+                    </li>
+
+
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="nav-link">
+                    <a href="https://discord.gg/bZkgwuj2rq" target="_blank">
+                        <i class='bx bxl-discord-alt icon' ></i>
+                        <span class="text nav-text">Discord</span>
+                    </a>
+                </li>
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="home">
+        <div class="text">ShadyMoon | Home</div>
+
+        <div class="Body-main">
+            <h1>111</h1>
+        </div>
+    </section>
+
+    <script>
+        const body = document.querySelector('body'),
+      sidebar = body.querySelector('nav'),
+      toggle = body.querySelector(".toggle");
+
+
+toggle.addEventListener("click" , () =>{
+    sidebar.classList.toggle("close");
+})
+    </script>
+
+</body>
+</html>
