@@ -1,0 +1,14 @@
+<html>
+  <head>
+<meta property="og:site_name" content="Outplays">
+    <meta name="theme-color" content="#4285f4" />
+    <title>Movie Name</title>
+<meta property="og:type" content="video.other">
+<meta property="og:title" content="Movie Name">
+<meta property="og:image" content="Movie Poster">
+</head>
+  <body>
+<!-- MOVIE SCRIPT -->
+  </body>
+
+</html>
