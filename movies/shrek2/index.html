@@ -1,0 +1,42 @@
+<html>
+  <head>
+<meta property="og:site_name" content="ShadyMoon ~ shady.js">
+    <meta name="theme-color" content="#4285f4" />
+    <title>Shrek 2</title>
+<meta property="og:type" content="video.other">
+<meta property="og:title" content="Shrek 2 Full Movie 2004">
+<meta property="og:image" content="https://wallpapers.com/images/hd/shrek-2-poster-crowding-circle-qrbjmvmtvwksj2dz.jpg">
+</head>
+  <body>
+<!-- CSS  -->
+<link href="https://vjs.zencdn.net/7.2.3/video-js.css" rel="stylesheet">
+
+
+<!-- HTML -->
+<video id='hls-example' class="video-js vjs-default-skin"
+  style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; margin:0; padding:0;" controls>
+
+  <!--m3u8 Link-->
+  <source type="application/x-mpegURL"
+    src="https://owt.webarchivecdn.com/_v10/4d637d69232305c583f664df034fb52775bdc7a566082def1334d6aa884d2e3073b648667d3b81fae2fda7fbbe4941ac8fb9dcc925539060f6b497dc4a708293009b6270d8bf3c5a23787c65abb6f835094b528e0de229134105a793d86433fccac225dcd0abe92035386bd6206f670a17de081d5cab3c942ddd74a64faea3ec/playlist.m3u8">
+
+  <!--Caption Link-->
+  <track kind='captions'
+    src='https://cc.2cdns.com/a4/f7/a4f7f818ff1b852bca461cd15631cc8d/a4f7f818ff1b852bca461cd15631cc8d.vtt' srclang='en'
+    label='English' />
+</video>
+
+
+<!-- JS code -->
+<!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+<script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.14.1/videojs-contrib-hls.js"></script>
+<script src="https://vjs.zencdn.net/7.2.3/video.js"></script>
+
+<script>
+  var player = videojs('hls-example');
+  player.play();
+</script>
+  </body>
+
+</html>
